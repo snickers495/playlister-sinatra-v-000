@@ -1,6 +1,6 @@
 require 'rack-flash'
 class SongController < ApplicationController
-
+  enable :sessions
   get '/songs' do
     @songs = Song.all
     erb :'songs/index'
