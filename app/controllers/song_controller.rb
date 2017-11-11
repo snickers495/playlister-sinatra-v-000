@@ -1,4 +1,4 @@
-require 'pry'
+
 class SongController < ApplicationController
 
   get '/songs' do
