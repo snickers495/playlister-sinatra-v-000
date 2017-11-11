@@ -2,7 +2,7 @@
   <label>Song Name: </label>
   <input type="text" id="Name" name="Name" value="Name">
   <label>Artist: </label>
-  <input type="text" id="Artist Name" name="artist">
+  <input type="text" id="Artist Name" name="Artist Name">
 
   <% Genre.all.each do |genre| %>
   <p><input id="<%= genre.name %>" type="checkbox" name="genres[]" value="<%= genre.id %>"><%= genre.name %></input></p>
